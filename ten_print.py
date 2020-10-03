@@ -28,7 +28,7 @@ class TenPrint():
                 slash = (slash[0] + x, slash[1] + y,
                          slash[2] + x, slash[3] + y)
 
-                self.canvas.create_line(*slash, fill='white')
+                self.canvas.create_line(*slash, fill='white', width=2)
                 self.canvas.pack(fill=tkinter.BOTH, expand=tkinter.YES)
 
         if save:
